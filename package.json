@@ -3,11 +3,12 @@
   "version": "0.0.1",
   "description": "Minimal PRPL starter",
   "scripts": {
-    "dev": "rm -rf dist && prpl && prpl-server",
-    "build": "rm -rf dist && prpl"
+    "dev": "rm -rf dist && node build.js && prpl-server",
+    "build": "rm -rf dist && node build.js"
   },
   "dependencies": {
-    "@prpl/core": "^0.2.7"
+    "@prpl/core": "^0.2.7",
+    "@prpl/plugin-code-highlight": "^0.3.2"
   },
   "devDependencies": {
     "@prpl/server": "^0.1.5"

@@ -1,6 +1,6 @@
 <!--
 title: Hakuna matata
-slug: notes/hakuna-matata
+slug: blog/hakuna-matata
 date: 2020-11-27
 description: It means no worries.
 categories: Misc
