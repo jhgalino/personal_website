@@ -1,0 +1,29 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --text: #000;
+  --background: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #fff;
+    --background: #000;
+  }
+}
+
+#menu {
+  width: 100%;
+  text-align: center;
+}
+
+#title {
+  text-align: center;
+}
+
+.pure-g {
+  justify-content: center;
+}

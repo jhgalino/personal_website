@@ -1,0 +1,15 @@
+{
+  "name": "prpl-starter-minimal",
+  "version": "0.0.1",
+  "description": "Minimal PRPL starter",
+  "scripts": {
+    "dev": "rm -rf dist && prpl && prpl-server",
+    "build": "rm -rf dist && prpl"
+  },
+  "dependencies": {
+    "@prpl/core": "^0.2.7"
+  },
+  "devDependencies": {
+    "@prpl/server": "^0.1.5"
+  }
+}
